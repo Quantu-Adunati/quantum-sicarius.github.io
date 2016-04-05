@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Hello World!'
-date: 2016-04-05T18:42:00.000Z
+date: 2016-04-05T00:00:00.000Z
 summary: 'Just a quick hello!'
 categories: jekyll hello
 ---
