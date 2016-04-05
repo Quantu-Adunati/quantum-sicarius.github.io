@@ -6,5 +6,4 @@ summary: 'Just a quick hello!'
 categories: jekyll hello
 ---
 
-# Hello World!
 `Hello World` seemed as an appropriate way to start my blog.
