@@ -1,10 +1,19 @@
 # Site settings
+<<<<<<< HEAD
 title:       Thomas Scholtz
 email:       thomas@quantum-sicarius.za.net
 author:      Thomas Scholtz
 description: "A blog about stuff."
 baseurl:     ""
 url:         "https://quantum-sicarius.github.io"
+=======
+title:       Pixyll
+email:       your_email@example.com
+author:      John Otander
+description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+baseurl:     ""
+url:         "http://pixyll.com"
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -24,6 +33,15 @@ show_social_icons:    false
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
+<<<<<<< HEAD
+=======
+enable_anchorjs: false
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id: 
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -36,7 +54,11 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
+<<<<<<< HEAD
 github_username: QuantumSicarius
+=======
+github_username:
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
@@ -103,7 +125,11 @@ redcarpet:
 permalink:    pretty
 paginate:     4
 sass:
+<<<<<<< HEAD
   compressed: true
+=======
+  style: compressed
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
 gems:
   - jekyll-paginate
   - jekyll-sitemap

@@ -39,7 +39,11 @@ layout: default
   <script type="text/javascript">
     var disqus_shortname  = '{{ site.disqus_shortname }}';
     var disqus_identifier = '{{ page.id }}';
+<<<<<<< HEAD
     var disqus_title      = '{{ page.title }}';
+=======
+    var disqus_title      = {{ page.title | jsonify }};
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
 
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -16,10 +16,21 @@
   padding: 1em 1.5em;
 }
 
+<<<<<<< HEAD
 .pagination .disabled {
   opacity: 0.5;
 }
 
+=======
+.pagination .disabled, .pagination .pagination-meta {
+  opacity: 0.5;
+}
+
+.pagination .pagination-meta {
+  overflow: hidden;
+}
+
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
 .pagination a:hover, .pagination a:focus {
   background: white;
   color: #477dca;

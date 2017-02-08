@@ -38,3 +38,19 @@ button,
   text-shadow: none;
   background-image: none;
 }
+<<<<<<< HEAD
+=======
+
+.anchorjs-link {
+    text-shadow: none;
+    background-image: none;
+}
+.anchorjs-link:hover,
+.anchorjs-link:focus,
+.anchorjs-link:active{
+    border: 0;
+    color: $link-hover-color;
+    text-shadow: none;
+    background-image: none;
+}
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12

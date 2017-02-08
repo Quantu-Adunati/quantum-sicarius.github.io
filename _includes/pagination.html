@@ -1,10 +1,18 @@
+<<<<<<< HEAD
+=======
+{% if paginator.total_pages != 1 %}
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
 <div class="pagination clearfix mb1 mt4">
   <div class="left">
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
         <a class="pagination-item" href="{{ site.baseurl }}/">{{ site.text.pagination.newer }}</a>
       {% else %}
+<<<<<<< HEAD
         <a class="pagination-item" href="{{ site.baseurl }}/page{{paginator.previous_page}}/">{{ site.text.pagination.newer }}</a>
+=======
+        <a class="pagination-item" href="{{ paginator.previous_page_path }}">{{ site.text.pagination.newer }}</a>
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
       {% endif %}
     {% else %}
       <span class="pagination-item disabled">{{ site.text.pagination.newer }}</span>
@@ -12,9 +20,19 @@
   </div>
   <div class="right">
     {% if paginator.next_page %}
+<<<<<<< HEAD
       <a class="pagination-item" href="{{ site.baseurl }}/page{{paginator.next_page}}/">{{ site.text.pagination.older }}</a>
+=======
+      <a class="pagination-item" href="{{ paginator.next_page_path }}">{{ site.text.pagination.older }}</a>
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
     {% else %}
       <span class="pagination-item disabled">{{ site.text.pagination.older }}</span>
     {% endif %}
   </div>
+<<<<<<< HEAD
 </div>
+=======
+  <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+</div>
+{% endif %}
+>>>>>>> 19dd7b58236a844bae8c140962273fae5d32da12
